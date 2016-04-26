@@ -28,8 +28,9 @@ define([
     'tpl!taoQtiItem/qtiCommonRenderer/tpl/interactions/gapMatchInteraction',
     'taoQtiItem/qtiCommonRenderer/helpers/container',
     'taoQtiItem/qtiCommonRenderer/helpers/instructions/instructionManager',
-    'taoQtiItem/qtiCommonRenderer/helpers/PciResponse'
-], function(_, __, $, tpl, containerHelper, instructionMgr, pciResponse){
+    'taoQtiItem/qtiCommonRenderer/helpers/PciResponse',
+    'OAT/interact'
+], function(_, __, $, tpl, containerHelper, instructionMgr, pciResponse, interact){
     'use strict';
 
     /**
@@ -136,11 +137,11 @@ define([
             return ($activeChoice && $activeChoice.hasClass('filled'));
         };
 
-        $container.on('mousedown.commonRenderer', function(e){
+        $container.on('click.commonRenderer', function(e){
             _resetSelection();
         });
 
-        $choiceArea.on('mousedown.commonRenderer', '>li', function(e){
+        $choiceArea.on('click.commonRenderer', '>li', function(e){
 
             e.stopPropagation();
 
@@ -155,7 +156,7 @@ define([
             $flowContainer.find('.gapmatch-content').addClass('empty');
         });
 
-        $flowContainer.on('mousedown.commonRenderer', '.gapmatch-content', function(e){
+        $flowContainer.on('click.commonRenderer', '.gapmatch-content', function(e){
 
             e.stopPropagation();
 
@@ -216,7 +217,7 @@ define([
 
                 //append trash bin:
                 var $bin = $('<span>', {'class' : 'icon-undo remove-choice', 'title' : __('remove')});
-                $bin.on('mousedown', function(e){
+                $bin.on('click', function(e){
                     e.stopPropagation();
                     _unsetChoice($activeChoice);
                     _resetSelection();
@@ -231,7 +232,7 @@ define([
         var $container = containerHelper.get(interaction);
 
         //restore selected choices:
-        $('.gapmatch-content .active', $container).trigger('mousedown.commonRenderer');
+        $('.gapmatch-content .active', $container).trigger('click.commonRenderer');
         $('.gapmatch-content', $container).each(function(){
             unsetChoice(interaction, $(this));
         });
