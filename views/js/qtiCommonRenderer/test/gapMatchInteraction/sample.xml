@@ -12,8 +12,8 @@
             <div class="col-6">
                 <gapMatchInteraction responseIdentifier="RESPONSE" shuffle="false">
                     <prompt> QTI Gap Match is very useful for language proficiency or for memory test</prompt>
-                    <gapText identifier="choice_2" fixed="false" matchMax="1" matchMin="0">paresse</gapText>
                     <gapText identifier="choice_1" fixed="false" matchMax="1" matchMin="0">chasseresse</gapText>
+                    <gapText identifier="choice_2" fixed="false" matchMax="1" matchMin="0">paresse</gapText>
                     <gapText identifier="choice_3" fixed="false" matchMax="1" matchMin="0">Loire</gapText>
                     <gapText identifier="choice_4" fixed="false" matchMax="1" matchMin="0">sonnets</gapText>
                     <gapText identifier="choice_5" fixed="false" matchMax="1" matchMin="0">gloire</gapText>
