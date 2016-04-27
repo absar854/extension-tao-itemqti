@@ -1,0 +1,315 @@
+{
+    "identifier": "i14075046665841385",
+    "serial": "item_5720654c3f12d730198413",
+    "qtiClass": "assessmentItem",
+    "attributes": {
+        "identifier": "i14075046665841385",
+        "title": "Gap match interaction",
+        "label": "",
+        "xml:lang": "en-US",
+        "adaptive": false,
+        "timeDependent": false,
+        "toolName": "TAO",
+        "toolVersion": "3.1.0-sprint15",
+        "class": ""
+    },
+    "body": {
+        "serial": "container_containeritembody_5720654c3f0e4211501327",
+        "body": "\n        <div class=\"grid-row\">\n            <div class=\"col-12\">\n                <h2>Do you know the french poet Charles Baudelaire ?<\/h2>\n            <\/div>\n        <\/div>\n        <div class=\"grid-row\">\n            <div class=\"col-6\">\n                {{interaction_gapmatchinteraction_5720654c40f27565286488}}\n            <\/div>\n            <div class=\"col-6\">\n                image de Gustave Courbet !\n            <\/div>\n        <\/div>\n    ",
+        "elements": {
+            "interaction_gapmatchinteraction_5720654c40f27565286488": {
+                "serial": "interaction_gapmatchinteraction_5720654c40f27565286488",
+                "qtiClass": "gapMatchInteraction",
+                "attributes": {
+                    "responseIdentifier": "RESPONSE",
+                    "shuffle": false
+                },
+                "body": {
+                    "serial": "container_containergap_5720654c414da848058296",
+                    "body": "\n                    \n                    \n                    \n                    \n                    \n                    \n                    <p>\u00a0 Au pays parfum\u00e9 que le soleil caresse,<br\/>\n                        \u00a0 J\u2019ai connu, sous un dais d\u2019arbres tout empourpr\u00e9s<br\/>\n                        \u00a0 Et de palmiers d\u2019o\u00f9 pleut sur les yeux la\n\n\n                        {{choice_gap_5720654c430e2154297715}}\n\n\n                        \u00a0,<br\/>\n                        \u00a0 Une dame cr\u00e9ole aux charmes ignor\u00e9s.<\/p>\n                    <p>\u00a0 Son teint est p\u00e2le et chaud; la brune enchanteresse<br\/>\n                        \u00a0 A dans le cou des airs noblement mani\u00e9r\u00e9s;<br\/>\n                        \u00a0 Grande et svelte en marchant comme une\n\n\n                        {{choice_gap_5720654c4330d764936551}}\n\n\n                        ,<br\/>\n                        \u00a0 Son sourire est tranquille et ses yeux assur\u00e9s.<\/p>\n                    <p>\u00a0 Si vous alliez, Madame, au vrai pays de\n\n\n                        {{choice_gap_5720654c433af900459672}}\n\n\n                        ,<br\/>\n                        \u00a0 Sur les bords de la Seine ou de la verte\n\n\n                        {{choice_gap_5720654c4344d691132744}}\n\n\n                        ,<br\/>\n                        \u00a0 Belle digne d\u2019orner les antiques manoirs,<\/p>\n                    <p>\u00a0 Vous feriez, \u00e0 l\u2019abri des ombreuses retraites<br\/>\n                        \u00a0 Germer mille\n\n\n                        {{choice_gap_5720654c434e5986982099}}\n\n\n                        dans le coeur des po\u00e8tes,<br\/>\n                        \u00a0 Que vos grands yeux rendraient plus soumis que vos noirs.<\/p>\n                ",
+                    "elements": {
+                        "choice_gap_5720654c430e2154297715": {
+                            "identifier": "gap_1",
+                            "serial": "choice_gap_5720654c430e2154297715",
+                            "qtiClass": "gap",
+                            "attributes": {
+                                "identifier": "gap_1",
+                                "fixed": false,
+                                "required": false
+                            },
+                            "debug": {
+                                "relatedItem": "item_5720654c3f12d730198413"
+                            }
+                        },
+                        "choice_gap_5720654c4330d764936551": {
+                            "identifier": "gap_2",
+                            "serial": "choice_gap_5720654c4330d764936551",
+                            "qtiClass": "gap",
+                            "attributes": {
+                                "identifier": "gap_2",
+                                "fixed": false,
+                                "required": false
+                            },
+                            "debug": {
+                                "relatedItem": "item_5720654c3f12d730198413"
+                            }
+                        },
+                        "choice_gap_5720654c433af900459672": {
+                            "identifier": "gap_5",
+                            "serial": "choice_gap_5720654c433af900459672",
+                            "qtiClass": "gap",
+                            "attributes": {
+                                "identifier": "gap_5",
+                                "fixed": false,
+                                "required": false
+                            },
+                            "debug": {
+                                "relatedItem": "item_5720654c3f12d730198413"
+                            }
+                        },
+                        "choice_gap_5720654c4344d691132744": {
+                            "identifier": "gap_3",
+                            "serial": "choice_gap_5720654c4344d691132744",
+                            "qtiClass": "gap",
+                            "attributes": {
+                                "identifier": "gap_3",
+                                "fixed": false,
+                                "required": false
+                            },
+                            "debug": {
+                                "relatedItem": "item_5720654c3f12d730198413"
+                            }
+                        },
+                        "choice_gap_5720654c434e5986982099": {
+                            "identifier": "gap_4",
+                            "serial": "choice_gap_5720654c434e5986982099",
+                            "qtiClass": "gap",
+                            "attributes": {
+                                "identifier": "gap_4",
+                                "fixed": false,
+                                "required": false
+                            },
+                            "debug": {
+                                "relatedItem": "item_5720654c3f12d730198413"
+                            }
+                        }
+                    },
+                    "debug": {
+                        "relatedItem": "item_5720654c3f12d730198413"
+                    }
+                },
+                "debug": {
+                    "relatedItem": "item_5720654c3f12d730198413"
+                },
+                "choices": {
+                    "choice_gaptext_5720654c42718262654719": {
+                        "identifier": "choice_2",
+                        "serial": "choice_gaptext_5720654c42718262654719",
+                        "qtiClass": "gapText",
+                        "attributes": {
+                            "identifier": "choice_2",
+                            "fixed": false,
+                            "matchMax": 1,
+                            "matchMin": 0
+                        },
+                        "debug": {
+                            "relatedItem": "item_5720654c3f12d730198413"
+                        },
+                        "text": "paresse"
+                    },
+                    "choice_gaptext_5720654c42add389900115": {
+                        "identifier": "choice_1",
+                        "serial": "choice_gaptext_5720654c42add389900115",
+                        "qtiClass": "gapText",
+                        "attributes": {
+                            "identifier": "choice_1",
+                            "fixed": false,
+                            "matchMax": 1,
+                            "matchMin": 0
+                        },
+                        "debug": {
+                            "relatedItem": "item_5720654c3f12d730198413"
+                        },
+                        "text": "chasseresse"
+                    },
+                    "choice_gaptext_5720654c42bd0973902884": {
+                        "identifier": "choice_3",
+                        "serial": "choice_gaptext_5720654c42bd0973902884",
+                        "qtiClass": "gapText",
+                        "attributes": {
+                            "identifier": "choice_3",
+                            "fixed": false,
+                            "matchMax": 1,
+                            "matchMin": 0
+                        },
+                        "debug": {
+                            "relatedItem": "item_5720654c3f12d730198413"
+                        },
+                        "text": "Loire"
+                    },
+                    "choice_gaptext_5720654c42cb3998202575": {
+                        "identifier": "choice_4",
+                        "serial": "choice_gaptext_5720654c42cb3998202575",
+                        "qtiClass": "gapText",
+                        "attributes": {
+                            "identifier": "choice_4",
+                            "fixed": false,
+                            "matchMax": 1,
+                            "matchMin": 0
+                        },
+                        "debug": {
+                            "relatedItem": "item_5720654c3f12d730198413"
+                        },
+                        "text": "sonnets"
+                    },
+                    "choice_gaptext_5720654c42dda832597073": {
+                        "identifier": "choice_5",
+                        "serial": "choice_gaptext_5720654c42dda832597073",
+                        "qtiClass": "gapText",
+                        "attributes": {
+                            "identifier": "choice_5",
+                            "fixed": false,
+                            "matchMax": 1,
+                            "matchMin": 0
+                        },
+                        "debug": {
+                            "relatedItem": "item_5720654c3f12d730198413"
+                        },
+                        "text": "gloire"
+                    }
+                },
+                "prompt": {
+                    "serial": "container_containerstatic_5720654c4130a829318887",
+                    "body": "\u00a0QTI Gap Match is very useful for language proficiency or for memory test",
+                    "elements": {},
+                    "debug": {
+                        "relatedItem": "item_5720654c3f12d730198413"
+                    }
+                }
+            }
+        },
+        "debug": {
+            "relatedItem": "item_5720654c3f12d730198413"
+        }
+    },
+    "debug": {
+        "relatedItem": "item_5720654c3f12d730198413"
+    },
+    "namespaces": {
+        "": "http:\/\/www.imsglobal.org\/xsd\/imsqti_v2p1",
+        "xml": "http:\/\/www.w3.org\/XML\/1998\/namespace",
+        "xsi": "http:\/\/www.w3.org\/2001\/XMLSchema-instance"
+    },
+    "schemaLocations": {
+        "http:\/\/www.imsglobal.org\/xsd\/imsqti_v2p1": "http:\/\/www.imsglobal.org\/xsd\/qti\/qtiv2p1\/imsqti_v2p1.xsd"
+    },
+    "stylesheets": {},
+    "outcomes": {
+        "outcomedeclaration_5720654c40315276413073": {
+            "identifier": "SCORE",
+            "serial": "outcomedeclaration_5720654c40315276413073",
+            "qtiClass": "outcomeDeclaration",
+            "attributes": {
+                "identifier": "SCORE",
+                "cardinality": "single",
+                "baseType": "float"
+            },
+            "debug": {
+                "relatedItem": "item_5720654c3f12d730198413"
+            },
+            "defaultValue": null
+        }
+    },
+    "responses": {
+        "responsedeclaration_5720654c3ff2e458948321": {
+            "identifier": "RESPONSE",
+            "serial": "responsedeclaration_5720654c3ff2e458948321",
+            "qtiClass": "responseDeclaration",
+            "attributes": {
+                "identifier": "RESPONSE",
+                "cardinality": "multiple",
+                "baseType": "directedPair"
+            },
+            "debug": {
+                "relatedItem": "item_5720654c3f12d730198413"
+            },
+            "mapping": [],
+            "areaMapping": [],
+            "howMatch": "http:\/\/www.imsglobal.org\/question\/qti_v2p1\/rptemplates\/match_correct",
+            "correctResponses": [],
+            "mappingAttributes": {
+                "defaultValue": 0
+            },
+            "feedbackRules": {}
+        }
+    },
+    "feedbacks": {},
+    "responseProcessing": {
+        "serial": "response_templatesdriven_5720654c44c76596278579",
+        "qtiClass": "responseProcessing",
+        "attributes": [],
+        "debug": {
+            "relatedItem": "item_5720654c3f12d730198413"
+        },
+        "processingType": "templateDriven",
+        "responseRules": [
+            {
+                "qtiClass": "responseCondition",
+                "responseIf": {
+                    "qtiClass": "responseIf",
+                    "expression": {
+                        "qtiClass": "match",
+                        "expressions": [
+                            {
+                                "qtiClass": "variable",
+                                "attributes": {
+                                    "identifier": "RESPONSE"
+                                }
+                            },
+                            {
+                                "qtiClass": "correct",
+                                "attributes": {
+                                    "identifier": "RESPONSE"
+                                }
+                            }
+                        ]
+                    },
+                    "responseRules": [
+                        {
+                            "qtiClass": "setOutcomeValue",
+                            "attributes": {
+                                "identifier": "SCORE"
+                            },
+                            "expression": {
+                                "qtiClass": "baseValue",
+                                "attributes": {
+                                    "baseType": "float"
+                                },
+                                "value": "1"
+                            }
+                        }
+                    ]
+                },
+                "responseElse": {
+                    "qtiClass": "responseElse",
+                    "responseRules": [
+                        {
+                            "qtiClass": "setOutcomeValue",
+                            "attributes": {
+                                "identifier": "SCORE"
+                            },
+                            "expression": {
+                                "qtiClass": "baseValue",
+                                "attributes": {
+                                    "baseType": "float"
+                                },
+                                "value": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "apipAccessibility": ""
+}
